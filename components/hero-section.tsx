@@ -58,18 +58,31 @@ export function HeroSection() {
               </Button>
             </div>
 
-            <div className="mt-12 flex items-center justify-center lg:justify-start space-x-8">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary">15+</div>
-                <div className="text-sm text-muted-foreground">Materi</div>
+            <div className="mt-12 flex flex-col items-center lg:items-start gap-8">
+              <div className="flex items-center justify-center lg:justify-start space-x-8">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-primary">15+</div>
+                  <div className="text-sm text-muted-foreground">Materi</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-secondary">50+</div>
+                  <div className="text-sm text-muted-foreground">Quiz</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-primary">100%</div>
+                  <div className="text-sm text-muted-foreground">Interaktif</div>
+                </div>
               </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-secondary">50+</div>
-                <div className="text-sm text-muted-foreground">Quiz</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary">100%</div>
-                <div className="text-sm text-muted-foreground">Interaktif</div>
+              <div className="w-full max-w-md bg-muted/30 rounded-lg p-4 mt-4">
+                <h3 className="text-lg font-bold mb-2 text-center">Anggota Kelompok 5:</h3>
+                <ul className="list-disc pl-6 text-sm text-muted-foreground">
+                  <li>Dynda Rayssa Jasyfa</li>
+                  <li>Izela Kristry Anggun</li>
+                  <li>Nadhirah Huwaida Hadi</li>
+                  <li>Khairinnisa Farras Andini</li>
+                  <li>Mitra Kasih</li>
+                  <li>Lionel Al Faruq</li>
+                </ul>
               </div>
             </div>
           </motion.div>

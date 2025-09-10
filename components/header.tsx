@@ -22,8 +22,8 @@ export function Header() {
               <Beaker className="h-6 w-6" />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-foreground">ChemLearn</h1>
-              <p className="text-xs text-muted-foreground">Kelompok 3 XII A1 2025/2026</p>
+              <h1 className="text-lg font-bold text-foreground">SMAN 1 PangkalPinang</h1>
+              <p className="text-xs text-muted-foreground">Kelompok 5 XII A1 2025/2026</p>
             </div>
           </div>
 
